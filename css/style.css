@@ -1,0 +1,91 @@
+/**********************************
+GENERAL
+***********************************/
+
+body {
+    font-family: 'New Rocker', cursive;
+    background-color: #000;
+}
+
+ h1 { 
+    background-color: #000;
+    color: #6F6E71;
+    font-size: 13vw;
+    font-family: 'New Rocker', cursive;
+    text-shadow: 4px 4px 4px #aaa;
+    max-width: 940px; 
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+    padding: 0 10%;
+    text-align: center;
+}
+a:link, a:visited, a:hover, a:active{
+  text-decoration: none;
+  color: #6F6E71;
+}
+img {
+  max-width: 100%;
+  align-content: center;
+}
+.icon {
+    font-size: 128px;
+    color: white;
+}
+ p {
+     color:#6f6e71;
+     font-size: 1vw;
+     text-align: center;
+ }
+
+/**********************************
+Bottom Navigation Bar
+***********************************/
+
+.bottomnav {
+    background-color: #000;
+    overflow: hidden;
+}   
+
+.bottomnav a {
+    float: left;
+    margin: 0 0 0 5%;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 3%;
+    text-decoration: none;
+    font-size: 3vw;
+}
+
+.bottomnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/**********************************
+Bottom Navigation Bar
+***********************************/
+.contactnav {
+    background-color: #000;
+    overflow: hidden;
+}   
+
+.contactnav a {
+    float: left;
+    margin: 0 0 0 5%;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 3%;
+    text-decoration: none;
+    font-size: 3vw;
+}
+
+.contactnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/**********************************
+Footer
+***********************************/
