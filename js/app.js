@@ -10,7 +10,7 @@ Song.prototype.play = function() {
 };
 
 Song.prototype.stop = function() {
-    this.isPLaying = false;
+    this.isPlaying = false;
 };
 
 Song.prototype.toHTML = function() {

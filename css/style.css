@@ -6,7 +6,7 @@ body {
     font-family: 'New Rocker', cursive;
     background-color: #000;
     text-align: center;
-    margin: 10em auto;
+    margin: 10vw auto;
     width: 80%;
     padding: 0 10px;
 }
@@ -51,7 +51,7 @@ li span {
 }
 
 li.current {
-    background: #ffd7d8;
+    background: #293edb;
 }
 
 button {
@@ -84,6 +84,9 @@ img {
      font-size: 2vw;
      text-align: center;
  }
+ .nav {
+     display: flex;
+ }
 
 /**********************************
 Bottom Navigation Bar
@@ -96,8 +99,6 @@ Bottom Navigation Bar
 
 .bottomnav a {
     float: left;
-    margin: 0 0 0 5vw;
-    display: block;
     color: #333;
     text-align: center;
     padding: 3vw 3vw;
@@ -135,6 +136,7 @@ Bottom Navigation Bar Contact
 }
 
 /**********************************
-Footer
+Media Queries
 ***********************************/
 
+  
