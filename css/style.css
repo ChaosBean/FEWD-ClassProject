@@ -5,6 +5,10 @@ GENERAL
 body {
     font-family: 'New Rocker', cursive;
     background-color: #000;
+    text-align: center;
+    margin: 10em auto;
+    width: 80%;
+    padding: 0 10px;
 }
 
  h1 { 
@@ -12,13 +16,57 @@ body {
     color: #6F6E71;
     font-size: 13vw;
     font-family: 'New Rocker', cursive;
-    text-shadow: 4px 4px 4px #aaa;
+    text-shadow: 1px 1px 1px #aaa;
     max-width: 940px; 
     margin: 0 0 0 0;
     border: 0 0 0 0;
-    padding: 0 10%;
+    padding: 10% 10%;
     text-align: center;
 }
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0;
+    width: 89%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+li {
+    color: #aaa;
+    width: 96%;
+    padding: 15px 2%;
+    margin: 0;
+    text-align: left;
+    border-top: 1px solid #777B7E;
+    display: flexwrap;
+}
+
+li span {
+    float: right;
+    color: #777B7E;
+    display: flex;
+}
+
+li.current {
+    background: #ffd7d8;
+}
+
+button {
+    margin:10px;
+    padding:10px 25px;
+    border: none;
+    border-radius: 5px;
+    background: #777B7E;
+    
+}
+
+div {
+    background: black;
+    margin: 0 0;
+}    
 a:link, a:visited, a:hover, a:active{
   text-decoration: none;
   color: #6F6E71;
@@ -33,7 +81,7 @@ img {
 }
  p {
      color:#6f6e71;
-     font-size: 1vw;
+     font-size: 2vw;
      text-align: center;
  }
 
@@ -63,7 +111,7 @@ Bottom Navigation Bar
 }
 
 /**********************************
-Bottom Navigation Bar
+Bottom Navigation Bar Contact
 ***********************************/
 .contactnav {
     background-color: #000;
@@ -89,3 +137,4 @@ Bottom Navigation Bar
 /**********************************
 Footer
 ***********************************/
+
