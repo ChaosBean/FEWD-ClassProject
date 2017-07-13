@@ -20,7 +20,7 @@ body {
     max-width: 940px; 
     margin: 0 0 0 0;
     border: 0 0 0 0;
-    padding: 10% 10%;
+    padding: 2vw 2vw;
     text-align: center;
 }
 
@@ -96,11 +96,11 @@ Bottom Navigation Bar
 
 .bottomnav a {
     float: left;
-    margin: 0 0 0 5%;
+    margin: 0 0 0 5vw;
     display: block;
     color: #333;
     text-align: center;
-    padding: 14px 3%;
+    padding: 3vw 3vw;
     text-decoration: none;
     font-size: 3vw;
 }
