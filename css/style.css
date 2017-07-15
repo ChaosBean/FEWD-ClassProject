@@ -80,13 +80,18 @@ img {
     color: white;
 }
  p {
-     color:#6f6e71;
-     font-size: 2vw;
+     color:#aaa;
+     font-family: 'Noto Serif', serif;
+     font-size: 3vw;
      text-align: center;
  }
  .nav {
      display: flex;
  }
+/**********************************
+Social Media Icon Links
+***********************************/
+
 
 /**********************************
 Bottom Navigation Bar
@@ -112,17 +117,17 @@ Bottom Navigation Bar
 }
 
 /**********************************
-Bottom Navigation Bar Contact
+ Contact
 ***********************************/
 .contactnav {
     background-color: #000;
-    overflow: hidden;
+    display: flex;
 }   
 
 .contactnav a {
     float: left;
     margin: 0 0 0 5%;
-    display: block;
+    display: inline;
     color: #333;
     text-align: center;
     padding: 14px 3%;
