@@ -14,11 +14,11 @@ Song.prototype.stop = function() {
 };
 
 Song.prototype.toHTML = function() {
-    var htmlString = '<li';
+    var htmlString = '<li class="song';
     if(this.isPlaying) {
-    htmlString += ' class="current"';
+    htmlString += ' current';
     }
-    htmlString += '>';
+    htmlString += '">';
     htmlString += this.title;
     htmlString += ' - '
     htmlString += this.album;

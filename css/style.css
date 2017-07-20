@@ -19,7 +19,6 @@ body {
     text-shadow: 1px 1px 1px #aaa;
     max-width: 940px; 
     margin: 0 0 0 0;
-    border: 0 0 0 0;
     padding: 2vw 2vw;
     text-align: center;
 }
@@ -31,23 +30,32 @@ ol {
     width: 89%;
     display: flex;
     flex-direction: column;
-
-}
+    }
 
 li {
+    font-family: "Noto+Serif";
+    font-size: 3vw;
     color: #aaa;
     width: 96%;
     padding: 15px 2%;
     margin: 0;
     text-align: left;
-    border-top: 1px solid #777B7E;
-    display: flexwrap;
+
+}
+
+ol#playlist {
+    margin: 0 auto;
 }
 
 li span {
     float: right;
     color: #777B7E;
     display: flex;
+}
+
+li.song {
+    border-top: 1px solid whitesmoke;
+    width: 100%;
 }
 
 li.current {
@@ -91,6 +99,26 @@ img {
 /**********************************
 Social Media Icon Links
 ***********************************/
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    width: 75%;
+
+}
+    li {
+    display: inline;
+    width: 60px;
+    text-decoration: none;
+    justify-content: center;
+   }
+
+a:link, a:visited, a:hover, a:active{
+  text-decoration: none;
+  color: #6F6E71;
+}
+  
 
 
 /**********************************
@@ -99,10 +127,12 @@ Bottom Navigation Bar
 
 .bottomnav {
     background-color: #000;
-    overflow: hidden;
+    display: flex;
 }   
 
 .bottomnav a {
+    font-family: "Noto+Serif";
+    font-weight: bold;
     float: left;
     color: #333;
     text-align: center;
@@ -122,12 +152,12 @@ Bottom Navigation Bar
 .contactnav {
     background-color: #000;
     display: flex;
+    align-content: center;
 }   
 
 .contactnav a {
-    float: left;
     margin: 0 0 0 5%;
-    display: inline;
+    display: flex;
     color: #333;
     text-align: center;
     padding: 14px 3%;
@@ -143,5 +173,8 @@ Bottom Navigation Bar
 /**********************************
 Media Queries
 ***********************************/
-
-  
+  @media only screen and (min-width: 600px) { 
+    h1 { 
+        text-shadow: 6px 6px 6px #777B7E;
+        }
+}
