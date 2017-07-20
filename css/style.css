@@ -40,7 +40,9 @@ li {
     padding: 15px 2%;
     margin: 0;
     text-align: left;
-
+}
+li .medialink {
+    width: 95%;
 }
 
 ol#playlist {
@@ -177,4 +179,8 @@ Media Queries
     h1 { 
         text-shadow: 6px 6px 6px #777B7E;
         }
+}
+
+li.medialink {
+    width: 95%;
 }
